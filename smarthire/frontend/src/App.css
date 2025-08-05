@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Times New Roman', Times, serif;
+  background: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1350&q=80")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: -1;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.scroll-box {
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+   font-family: "Times New Roman", Times, serif;
+}
+
+.card input[type="file"] {
+  margin-bottom: 1rem;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.status {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.preview-box {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+}
+
+.resume-section, .questions-section {
+  margin-top: 20px;
+}
+
+.resume-block {
+  background-color: #ffffff;
+  border-left: 4px solid #007bff;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  max-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.resume-block h4 {
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.resume-block pre {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+
+.questions-section ul {
+  list-style-type: "👉 ";
+  padding-left: 20px;
+}
+
+
+
